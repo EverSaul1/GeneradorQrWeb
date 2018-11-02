@@ -46,66 +46,38 @@
   <!-- Morris chart -->
   <link rel="stylesheet" href="bower_components/morris.js/morris.css">
 
-
-
 </head>
 <body class="bg-black">
 
-  <div class="form-box login-box" id="login-box">
+<div  class="form-box" id="login-box">
 
-    <div class="header">Registro de asistentes
-      
-    </div>
-    <form action="RegistroAsistentes.php" method="post">
-
-
-      <div class="body bg-bray has-feedback">
-
-      <div class="form-group ">
-
-        <input type="text" name="name" class="form-group" placeholder="Nombre Completo">
-      </div>
-
-      <div class="form-group">
-
-        <input type="text" name="apellido" class="form-group" placeholder="Apellido Completo">
-      </div>
-
-      <div class="form-group">
-
-        <input type="text" name="dnicodigo" class="form-group" placeholder="DNI">
-      </div>
-
-      <div class="form-group">
-
-        <input type="text" name="email" class="form-group" placeholder="Email">
-      </div>
-
-      <div class="form-group">
-
-        <input type="text" name="numerocelular" class="form-group" placeholder="Numero de celular">
-      </div>
-
-        
+      <div class="header"> Resgitrado</div>
+      <div class="body bg-gray" align="center">
+         <h2> Felicidades  te has registrado correctamente</h2>
       </div>
       <div class="footer">
-
-        <button id="btnRegistrar" type="submit" class="btn bg-olive btn-block">Enviar</button>
-        
+        <a href=""> <button class="btn btn-succes btn-block"><b>Descargar Ficha </b> </button></a>
       </div>
-    
-    </form>
-    
-  </div>
+      <hr>
+      <a href="index.php"> Registrar nuevo</a>
+      <br>
+      <a href="ListaPersona.php">Ver Inscritos</a>
+  
+</div>
+
+ 
 
      <!-- jQuery 3 -->
-  <script src="vistas/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   
   <!-- Bootstrap 3.3.7 -->
-  <script src="vistas/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
 
 
 </html>
+
+
+
